@@ -154,17 +154,111 @@ Depois, importe e use o componente global no `App.tsx`.
 O styled components parece ser uma ferramenta poderosa porque, por meio das propriedades e pela possibilidade de utilizar a lógica de JavaScript na escrita do CSS, dá mais flexibilidade ao código, mas em alguns pontos parece um CSS inline, como no caso utilizado do fontSize.
 
 ## Aula 4 - Conheça o Atomic Design
+### Objetivos
+* Conceituar Atomic Design e entender como ele se aplica ao desenvolvimento de componentes em um projeto React;
+* Aplicar o Atomic Design na criação de componentes em um projeto React;
+* Identificar os elementos atômicos (componentes pequenos e reutilizáveis), criar moléculas combinando átomos e construir organismos maiores a partir dessas moléculas;
+* Compreender a importância da flexibilidade na estrutura de um projeto React.
+
+### Pontos importantes
+O React, de forma geral, não tem uma estrutura padrão para construção dos projetos. Na aula, o professor mostrou que algumas pessoas preferem agrupar todos os arquivos relacionados ao componente (por exemplo, o componente Avatar teria dentro dele o JS, o CSS e tudo que faz parte daquele componente). Outra abordagem é separar por tipo de arquivo, criando pastas específicas para API, componentes, etc.
+
+Foi apresentado o conceito de Atomic Design, uma forma de organizar e estruturar projetos:
+- **Átomo:** Menor parte do projeto, pode ser um título, botão ou input.
+- **Molécula:** Conjunto de átomos formando uma estrutura maior, como um formulário ou grupo de botões.
+- **Organismo:** Uma seção do site, como menu de navegação, barra lateral ou área de comentários.
+- **Template:** Estrutura da página, definindo que tipo de informação vai ocupar cada área (imagem, texto, vídeo, propaganda), criando um esqueleto para o site.
+- **Page:** Template preenchido com conteúdo real, para validar o design e fazer ajustes se necessário.
+
+Lendo mais sobre Atomic Design, fica claro a importância de construir páginas reutilizáveis ou que sirvam de base para outras estilizações específicas.
+
+O professor comentou que não vai seguir o Atomic Design à risca, pois acha que a metodologia pode tornar a criação de componentes muito específica e poluir o projeto com muitos arquivos. Ele recomenda usar metodologias como referência, não como regra, e adaptar conforme o que for mais importante para o projeto.
+
+Mostrou o Figma do projeto do módulo e estruturou como quer dividir os componentes de estilização:
+- Títulos
+- Texto
+- Card
+- Conjunto de Cards
+- Avatar
+
 
 ## Aula 5 - Construa a estrutura
+### Objetivos
+* Criar a estrutura inicial de um projeto React;
+* Organizar as pastas e criar componentes como barra lateral, seção principal e seção de projetos;
+* Criar componentes reutilizáveis, como o título que pode aceitar propriedades para personalização;
+* Aplicar estilos e layout usando CSS-in-JS em um projeto React.
+
+### Pontos importantes
+Na estruturação das pastas do projeto, o professor sugeriu colocar como container uma seção maior, como a `sidebar`, e dentro dessa pasta ir criando as seções que serão utilizadas no projeto. Em outra pasta separada, são criados os components.
+
+O caminho seguido para construção dos arquivos foi:
+components -> containers -> app.tsx
+
+Criamos componentes que podem receber valores por meio do children (exemplo: components/title.tsx).
+
+Fizemos a estilização básica do site utilizando o styled components, mostrando como podemos organizar a estrutura e seguir um padrão de organização.
+
+### Comentários
+Uma coisa que acho meio ruim de usar o styled components é o fato de não ter autocomplete do CSS e de não acusar alguns erros, já que está sendo escrito via JS.
+
 
 ## Aula 6 - Crie os componentes para textos
+### Objetivos
+
+
+### Pontos importantes
+
+
+### Comentários
+
 
 ## Aula 7 - Finalizando a sessão "Sobre mim"
+### Objetivos
+
+
+### Pontos importantes
+
+
+### Comentários
+
 
 ## Aula 8 - Criando o componente de projetos
+### Objetivos
+
+
+### Pontos importantes
+
+
+### Comentários
+
 
 ## Aula 9 - Estilizando a sidebar
+### Objetivos
+
+
+### Pontos importantes
+
+
+### Comentários
+
 
 ## Aula 10 - Explore o recurso temas
+### Objetivos
+
+
+### Pontos importantes
+
+
+### Comentários
+
 
 ## Tarefa
+### Objetivos
+
+
+### Pontos importantes
+
+
+### Comentários
+
