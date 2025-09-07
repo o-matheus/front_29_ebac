@@ -205,22 +205,29 @@ Uma coisa que acho meio ruim de usar o styled components é o fato de não ter a
 
 ## Aula 6 - Crie os componentes para textos
 ### Objetivos
-
+* Criar componentes reutilizáveis para texto, como títulos e parágrafos;
+* Utilizar propriedades opcionais em componentes React para fornecer valores padrão quando não são especificados;
+* Aplicar estilos de texto usando CSS-in-JS em um projeto React.
 
 ### Pontos importantes
+Nesta aula, criamos e estilizamos componentes de texto utilizando styled-components e props.
 
+`tipo?: 'principal' | 'secundario'` → Definição dos valores que podem ser recebidos pela propriedade tipo, tornando-a opcional.
 
-### Comentários
+Aprendemos a usar props para alterar dinamicamente a cor e o estilo dos textos, facilitando a reutilização dos componentes em diferentes partes do projeto.
 
 
 ## Aula 7 - Finalizando a sessão "Sobre mim"
 ### Objetivos
-
+* Integrar imagens em componentes React;
+* Aplicar estilos responsivos a elementos HTML em uma aplicação React;
+* Ajustar o layout da página, como o tamanho do contêiner, margens e espaçamentos entre elementos;
+* Exibir informações dinâmicas do GitHub, como estatísticas e linguagens mais usadas.
 
 ### Pontos importantes
+Nessa aula, finalizamos a estilização da seção "Sobre mim", integrando imagens e informações dos nossos repositórios do GitHub. Fizemos ajustes no layout para garantir uma boa apresentação tanto na visão desktop quanto na mobile, utilizando styled-components para aplicar estilos responsivos.
 
-
-### Comentários
+Também organizamos os componentes para exibir dados dinâmicos, como estatísticas do GitHub (commits, PRs, issues) e as linguagens mais utilizadas, deixando a seção mais completa e informativa.
 
 
 ## Aula 8 - Criando o componente de projetos

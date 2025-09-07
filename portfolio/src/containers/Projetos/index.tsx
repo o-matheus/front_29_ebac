@@ -2,13 +2,7 @@ import Title from '../../components/Title'
 
 const Projetos = () => (
   <section>
-    <Title>Projetos</Title>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-      voluptatibus saepe impedit blanditiis ipsa veniam excepturi ullam
-      consequuntur iste obcaecati, quod deserunt dolorum qui, quae recusandae
-      ducimus libero, suscipit ad?
-    </p>
+    <Title fontSize="16px">Projetos</Title>
   </section>
 )
 
