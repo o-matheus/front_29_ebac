@@ -1,13 +1,22 @@
+import Avatar from '../../components/Avatar'
+import Paragrafo from '../../components/Paragrafo'
 import Title from '../../components/Title'
+import { BotaoTema, Cargo, SidebarContainer } from './style'
 
 const Sidebar = () => (
   <aside>
-    <img
-      src="https://github.com/o-matheus.png"
-      alt="Imagem de perfil no GitHub"
-    />
-    {/* Aqui no caso nos fizemos a estruturação para que o componente que criamos recebesse uma valor, com a configuração do props.children */}
-    <Title fontSize="20px">Matheus Aguiar</Title>
+    <SidebarContainer>
+      <Avatar />
+      {/* Aqui no caso nos fizemos a estruturação para que o componente que criamos recebesse uma valor, com a configuração do props.children */}
+      <Title fontSize="20px">Matheus Aguiar</Title>
+      <Paragrafo fontSize="16px" tipo="secundario">
+        o-matheus
+      </Paragrafo>
+      <Cargo fontSize="12px" tipo="principal">
+        Front-end
+      </Cargo>
+      <BotaoTema>Trocar tema</BotaoTema>
+    </SidebarContainer>
   </aside>
 )
 

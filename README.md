@@ -248,14 +248,20 @@ A abordagem de usar um array de objetos facilita a manutenção e a expansão do
 O uso do `.map()` torna o componente flexível e reutilizável, permitindo adicionar ou remover projetos facilmente sem precisar alterar a estrutura do componente.
 
 ## Aula 9 - Estilizando a sidebar
-### Objetivos
 
+### Objetivos
+* Aplicar estilos personalizados à sidebar do projeto;
+* Utilizar styled-components para criar componentes visuais reutilizáveis;
+* Garantir responsividade e boa usabilidade na navegação lateral.
 
 ### Pontos importantes
-
+Nesta aula, criamos e estilizamos a sidebar, definindo cores, espaçamentos, alinhamento dos itens e ícones.  
+Utilizamos styled-components para separar a estilização do restante do código, tornando o componente mais organizado e fácil de manter.  
+Ajustamos o layout para garantir que a sidebar fique adequada tanto em telas grandes quanto pequenas, melhorando a experiência do usuário.
 
 ### Comentários
-
+A estilização da sidebar deixou a navegação do projeto mais intuitiva e visualmente agradável.  
+O uso de componentes estilizados facilita futuras alterações e amplia a reutilização
 
 ## Aula 10 - Explore o recurso temas
 ### Objetivos
