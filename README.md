@@ -231,14 +231,21 @@ Também organizamos os componentes para exibir dados dinâmicos, como estatísti
 
 
 ## Aula 8 - Criando o componente de projetos
-### Objetivos
 
+### Objetivos
+* Criar um componente para exibir os projetos de forma dinâmica;
+* Utilizar arrays de objetos para organizar as informações dos projetos;
+* Renderizar os projetos usando `.map()` no React;
+* Aplicar estilização nos cards de projetos com styled-components.
 
 ### Pontos importantes
-
+Nesta aula, estruturamos um array de objetos contendo as informações de cada projeto (título, descrição e link).  
+Criamos o componente `Projeto` que percorre esse array com `.map()` e renderiza os dados dinamicamente.  
+Também aplicamos estilos nos cards de projetos para garantir uma apresentação visual agradável e padronizada.
 
 ### Comentários
-
+A abordagem de usar um array de objetos facilita a manutenção e a expansão dos projetos exibidos.  
+O uso do `.map()` torna o componente flexível e reutilizável, permitindo adicionar ou remover projetos facilmente sem precisar alterar a estrutura do componente.
 
 ## Aula 9 - Estilizando a sidebar
 ### Objetivos
