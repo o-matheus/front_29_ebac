@@ -8,7 +8,9 @@ export const GithubSecao = styled.div`
     height: 157px;
 
     @media (max-width: 768px) {
-      width: 280px;
+      height: auto;
+      width: 100%;
+      margin-bottom: 16px;
     }
   }
 `

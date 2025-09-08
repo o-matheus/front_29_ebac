@@ -264,21 +264,17 @@ A estilização da sidebar deixou a navegação do projeto mais intuitiva e visu
 O uso de componentes estilizados facilita futuras alterações e amplia a reutilização
 
 ## Aula 10 - Explore o recurso temas
-### Objetivos
 
+### Objetivos
+* Implementar temas dinâmicos (claro e escuro) na aplicação React;
+* Utilizar o ThemeProvider do styled-components para alternar estilos globalmente;
+* Permitir que o usuário troque o tema da interface de forma simples e intuitiva.
 
 ### Pontos importantes
+Nesta aula, criamos objetos de tema (`temaLight` e `temaDark`) contendo as cores e estilos principais da aplicação.  
+Utilizamos o ThemeProvider do styled-components para fornecer o tema selecionado a todos os componentes.  
+Implementamos uma função para alternar entre os temas, permitindo que o usuário escolha entre visual claro ou escuro.  
+Ajustamos os componentes para utilizar as propriedades do tema, tornando a estilização mais flexível e centralizada.  
+Também foi necessário definir os tipos padrão do tema para o TypeScript reconhecer corretamente as propriedades do objeto de tema. Para isso, criamos um arquivo de definição de tipos (`styled.d.ts`) e estendemos a interface `DefaultTheme` do styled-components, incluindo todas as propriedades utilizadas nos temas.
 
-
-### Comentários
-
-
-## Tarefa
-### Objetivos
-
-
-### Pontos importantes
-
-
-### Comentários
 
